@@ -105,3 +105,28 @@ button:focus:not(:focus-visible) {
 	width: 1px;
 	white-space: nowrap;
 }
+
+#popupBox {
+	position: absolute;
+	background-color: darkgray;
+	max-width: 2000px;
+	border-radius: 5%;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	display: none;
+}
+
+
+
+#popupArrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid darkgray;
+	display: none;
+
+}

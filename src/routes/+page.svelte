@@ -13,7 +13,7 @@
 		<span class="translatePageBtn">translate</span>
 	</div>
 	<h1>Collections to learn and memorise</h1>
-	<h2><a href="/">Browse availavle collections</a></h2>
+	<h2><a href="/collections">Browse availavle collections</a></h2>
   
 	<Form />
 </section>

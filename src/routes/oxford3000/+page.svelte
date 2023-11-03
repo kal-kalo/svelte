@@ -77,32 +77,17 @@
         
     </div>
     
+    
+
+    <div class="item-index"> Item {oxford3000.indexOf(item)} of {oxford3000.length}</div>
     {/each}
   </div>
 
 </div>
 
 <style>
-    #popupBox {
-      position: absolute;
-      background-color: darkgray;
-      max-width: 2000px;
-      border-radius: 5%;
-      padding-top: 5px;
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-bottom: 15px;
-      display: none;
-    }
-
-    #popupArrow {
-      position: absolute;
-      width: 0;
-      height: 0;
-      border-left: 8px solid transparent;
-      border-right: 8px solid transparent;
-      border-bottom: 8px solid darkgray;
-      display: none;
-
-    }
+  .item-index{
+    color: rgb(164, 164, 164);
+    font-size: small;
+  }
 </style>

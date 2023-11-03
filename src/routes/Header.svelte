@@ -16,19 +16,13 @@
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
-        <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}><a href="/">الرئيسية</a></li>
-        <li aria-current={$page.url.pathname === '/alphabet' ? 'page' : undefined}><a href="/alphabet">درس الحروف والهجاء</a></li>
-        <li aria-current={$page.url.pathname === '/airport' ? 'page' : undefined}><a href="/airport"> في المطار </a></li>
-        <li aria-current={$page.url.pathname === '/health_problems' ? 'page' : undefined}><a href="/health_problems"> الصحة </a></li>
-        <li aria-current={$page.url.pathname === '/directions' ? 'page' : undefined}><a href="/directions"> الاتجاهات </a></li>
-        <li aria-current={$page.url.pathname === '/do_are' ? 'page' : undefined}><a href="/do_are"> are/do </a></li>
-        <li aria-current={$page.url.pathname === '/oxford3000' ? 'page' : undefined}><a href="/oxford3000">Oxford 3000</a></li>
-        <li aria-current={$page.url.pathname === '/conversations' ? 'page' : undefined}><a href="/conversations">محادثات</a></li>
-	</ul>
-	<svg viewBox="0 0 2 3" aria-hidden="true">
-		<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-	</svg>
-      </nav>
+        <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}><a href="/">Home</a></li>
+        <li aria-current={$page.url.pathname === '/collections' ? 'page' : undefined}><a href="/collections">Collections</a></li>
+		</ul>
+		<svg viewBox="0 0 2 3" aria-hidden="true">
+			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
+		</svg>
+    </nav>
 
 	<div class="corner">
 		<a href="https://github.com/sveltejs/kit">

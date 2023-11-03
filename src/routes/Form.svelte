@@ -11,11 +11,10 @@
                 <option value="ours">Choose collection</option>
             </optgroup>
             <optgroup label="Language Learning">
-                <option value="2a">2a</option>
-                <option value="2b">2b</option>
-                <option value="3c">3c</option>
+                <option value="2a">oxford 3000</option>
+                <option value="2b">Conversations</option>
             </optgroup>
-            <optgroup label="Islam Learning">
+            <optgroup label="Math Learning">
                 <option value="3a">3a</option>
                 <option value="3b">3b</option>
                 <option value="3c">3c</option>

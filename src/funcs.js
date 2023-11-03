@@ -7,8 +7,7 @@ export function wordExplainPopup(e, dict) {
         document.body.replaceChild(popupArrow, document.getElementById("popupArrow") )
         document.body.replaceChild(popupBox, document.getElementById("popupBox") )
     } else {
-        document.body.appendChild(popupBox)
-        document.body.appendChild(popupArrow)
+        document.body.append(popupBox,popupArrow)
     } 
 
 
