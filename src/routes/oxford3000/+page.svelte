@@ -77,8 +77,6 @@
         
     </div>
     
-    
-
     <div class="item-index"> Item {oxford3000.indexOf(item)} of {oxford3000.length}</div>
     {/each}
   </div>
